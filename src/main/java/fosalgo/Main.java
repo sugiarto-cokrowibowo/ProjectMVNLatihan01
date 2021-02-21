@@ -5,13 +5,16 @@
  */
 package fosalgo;
 
+import java.util.Scanner;
+
 /**
  *
  * @author VD1
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Sugiarto Cokrowibowo...");
-        System.out.println("Latihan PUSH Github");
+        Scanner sc = new Scanner(System.in);
+        String kataku = sc.nextLine();
+        System.out.println("INPUT: "+kataku);
     }
 }
